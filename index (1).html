@@ -1,0 +1,601 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Her Day, Our Future</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fffafc;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header, section {
+      padding: 2em;
+      text-align: center;
+    }
+    header {
+      background: #f9e1f2;
+      color: #5c1a3b;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    .section-title {
+      font-size: 2em;
+      color: #c94c8c;
+    }
+    iframe, audio {
+      width: 90%;
+      max-width: 400px;
+      margin: 1em auto;
+    }
+    .wheel, .playlist, .carousel {
+      margin: 1em 0;
+    }
+    .gift-button {
+      background: #f06292;
+      color: white;
+      border: none;
+      padding: 1em 2em;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .gift-button:hover {
+      background: #ec407a;
+    }
+  </style>
+</head>
+<body>
+  <header style="text-align: center; padding: 2rem;">
+    <h1 style="font-size: 2.5rem;">Hey My B'day Girl 🎂</h1>
+    <p style="font-size: 1.2rem;">
+      Aaj sirf aapka birthday nahi, humara test bhi hai 🥲<br>
+      Khair, saath mein enjoy karte hain yeh pyaara din 😚😚
+    </p>
+    <a href="#morning" style="display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background-color: #f472b6; color: white; border-radius: 0.5rem; text-decoration: none;">
+      Enter Our Day
+    </a>
+  </header>
+
+  <section id="morning" style="text-align: center; padding: 2rem; background-color: #fdf2f8;">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem;">FIRST..!! Spin the wheel 👀</h2>
+
+    <div class="wheel">
+      <iframe 
+        src="https://wheelofnames.com/n8u-kg9" 
+        width="350" 
+        height="300" 
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section> <!-- 🍳 MORNING BREAKFAST DATE SECTION -->
+   <section id="morning" class="morning-section">
+    <h2 class="section-title">🌞 Morning: Wrapped in Your Love</h2>
+
+    <div class="moment" style="animation-delay: 0s;">
+      <p>💤 We begin the day cuddled up, tangled in warmth, your breath soft against mine...</p>
+    </div>
+
+    <div class="moment" style="animation-delay: 1s;">
+      <p>💋 A lazy kiss on your lips, just like a soft “good morning” our souls whisper.</p>
+    </div>
+
+    <div class="moment" style="animation-delay: 2s;">
+      <p>🪥 We brush our teeth together, giggling through the foam, you steal a glance, I blush. 😚</p>
+    </div>
+
+    <div class="moment" style="animation-delay: 3s;">
+      <p>🚿 A warm shower — water trickling down, your hand in mine, as we plan forever. 🤍</p>
+    </div>
+
+    <div class="moment" style="animation-delay: 4s;">
+      <p>☕ Wrapped in towels, we sip coffee by the window, the world quiet, just us in the hush of morning. 🌤️</p>
+    </div>
+
+    <p class="closing-text" style="animation-delay: 5s;">This imaginary morning, simple yet magical — just like *us*. 💞</p>
+  </section>
+
+  <style>
+    .morning-section {
+      padding: 3rem 1.5rem;
+      max-width: 750px;
+      margin: auto;
+      background: #fff7f9;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #e75480;
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    .moment {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideFade 1.2s forwards;
+      margin-bottom: 1.8rem;
+      font-size: 1.15rem;
+      color: #333;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .closing-text {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #d6336c;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards;
+    }
+
+    @keyframes slideFade {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style> <!-- 💖 CELEBRATION ROOM SECTION -->
+  <section id="celebration-room" style="padding: 3rem; background-color: #fff0f5; text-align: center; position: relative; overflow: hidden;">
+    <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: #d63384;">🎉 Celebration Room</h2>
+
+    <!-- 🎂 3D Floating Cake -->
+    <div style="font-size: 4rem; animation: floatCake 3s ease-in-out infinite;">🎂</div>
+
+    <!-- 🎈 Balloons Floating -->
+    <div class="balloons">
+      <span>🎈</span><span>🎈</span><span>🎈</span>
+    </div>
+
+    <!-- 📝 Silly Bucket List -->
+    <h3 class="fade-in" style="font-size: 2rem; margin-top: 2rem;">Our Silly Bucket List 😂</h3>
+    <ul class="fade-in delay-1" style="list-style: none; padding: 0; font-size: 1.2rem; line-height: 2;">
+      <li>🚻 Go to a washroom together 😂</li>
+      <li>🍜 Eat one noodle from both ends 👀</li>
+      <li>👻 Watch a complete horror movie at night 🌉</li>
+      <li>✂️ Stone paper scissors but cloths get removed 🫠</li>
+      <li>🧦 First to remove socks!! 🤣</li>
+    </ul>
+
+    <!-- 💌 Future Letter Button -->
+    <button onclick="toggleLetter()" style="margin-top: 2rem; padding: 10px 20px; font-size: 1rem; background-color: #ff4081; color: white; border: none; border-radius: 10px; cursor: pointer;">
+      📩 Read Secret Letter from Future Me
+    </button>
+
+    <!-- 📜 Hidden Letter -->
+    <div id="future-letter" class="fade-in" style="display: none; margin-top: 1rem; max-width: 600px; margin-left: auto; margin-right: auto; padding: 1.5rem; background-color: #fff; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.1); text-align: left;">
+      <p style="white-space: pre-wrap; font-size: 1rem;">
+        Dear Vaishu,<br><br>
+        Me future ka Pranay hu... tere past ke liye likh rha hu.... hum filhal bhot achii jgh stand krte hn yrr... Hum dono same medical college me hn jo ki india ka best medical college bhi hn.....<br><br>
+        Yrr tuh plzz himmat nhi harna, trust me hum dono aaram se sath me clear kr lenge NEET, aur fir saath me achee se future bhi banayege.... filhal soch rha hu parents se baat kru ya nhi... humara admission bhi hogya....<br><br>
+        Jaan bas bhrosa rkhna khudpe, iss rishte pe... sab thik hoga aage chalke!! That's my guarantee aur isliye Aaj me yeh letter likh paa rha hu....<br><br>
+        Ok so milte hn future me...<br><br>
+        Apka Pranay (18 saal ka)
+      </p>
+    </div>
+
+    <!-- 💖 Easter Egg Trigger -->
+    <div onclick="showEasterEgg()" style="font-size: 2rem; margin-top: 2rem; cursor: pointer;">💖</div>
+    <div id="easter-egg" class="fade-in" style="display: none; margin-top: 1rem; font-size: 1.2rem; background-color: #e0ffe6; padding: 1rem; border-radius: 10px;">
+      "You didn’t just find the heart... you found *my whole heart*. ❤️ Forever yours."
+    </div>
+  </section>
+
+  <!-- 🌈 ANIMATIONS & STYLES -->
+  <style>
+    @keyframes floatCake {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-15px); }
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 1s forwards;
+    }
+
+    .delay-1 {
+      animation-delay: 0.5s;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .balloons span {
+      font-size: 2rem;
+      animation: floatBalloon 5s ease-in-out infinite;
+      display: inline-block;
+      margin: 0 5px;
+    }
+
+    @keyframes floatBalloon {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+
+  <!-- ⚙️ JS for Toggles -->
+  <script>
+    function toggleLetter() {
+      const letter = document.getElementById('future-letter');
+      letter.style.display = letter.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function showEasterEgg() {
+      const egg = document.getElementById('easter-egg');
+      egg.style.display = 'block';
+    }
+  </script> <!-- 🌟 SECTION 3: FUTURE GOALS -->
+  <section id="future-goals" style="background: linear-gradient(#fef6ff, #fff); padding: 4rem 2rem;">
+    <h2 style="text-align: center; font-size: 2.5rem; color: #8e44ad; margin-bottom: 3rem;">🚀 Our Future Journey</h2>
+
+    <div class="timeline">
+      <div class="timeline-event">
+        <span class="timeline-date">15 Nov 2024</span>
+        <p class="timeline-text">The day a spark ignited... when "us" began. 💖</p>
+      </div>
+      <div class="timeline-event">
+        <span class="timeline-date">12 Mar 2025</span>
+        <p class="timeline-text">The day I chose to walk the path of medicine—with you beside me. 🩺</p>
+      </div>
+      <div class="timeline-event">
+        <span class="timeline-date">13 May 2025</span>
+        <p class="timeline-text">When the result stung... but your strength shined brighter. 🌧️☀️</p>
+      </div>
+      <div class="timeline-event">
+        <span class="timeline-date">21 Jun 2025</span>
+        <p class="timeline-text">Your birthday—my festival. The first of many celebrations. 🎂✨</p>
+      </div>
+      <div class="timeline-event">
+        <span class="timeline-date">Mar 2026</span>
+        <p class="timeline-text">As 11th ends, our dreams begin to crystallize. 🛤️</p>
+      </div>
+      <div class="timeline-event">
+        <span class="timeline-date">Feb/Mar 2027</span>
+        <p class="timeline-text">A moment of chaos — Boards + Meeting. Double stress, double love. 🤯❤️</p>
+      </div>
+      <div class="timeline-event">
+        <span class="timeline-date">May 2027</span>
+        <p class="timeline-text">NEET 2027. One attempt. One dream. One future. 🎯</p>
+      </div>
+      <div class="timeline-event">
+        <span class="timeline-date">June 2027</span>
+        <p class="timeline-text">When this long-distance turns into long-life-together. 🏡💞</p>
+      </div>
+    </div>
+
+    <!-- 🌗 Split Visual -->
+    <div style="display: flex; align-items: center; justify-content: center; margin: 4rem 0;">
+      <div style="flex: 1; text-align: center;">
+        <h3 style="font-size: 1.5rem;">You ❤️</h3>
+      </div>
+      <div class="clock-container">
+        <div class="clock-ring">
+          <span id="countdown" style="font-size: 1.2rem;"></span>
+        </div>
+        <p style="margin-top: 0.5rem; font-weight: bold;">Counting down to: <br> 21 June 2027</p>
+      </div>
+      <div style="flex: 1; text-align: center;">
+        <h3 style="font-size: 1.5rem;">Me 💙</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✨ STYLES -->
+  <style>
+    .timeline {
+      position: relative;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .timeline-event {
+      background-color: #fff;
+      margin: 20px 0;
+      padding: 1rem;
+      border-left: 4px solid #8e44ad;
+      border-radius: 6px;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .timeline-date {
+      font-weight: bold;
+      color: #6a1b9a;
+      display: block;
+      margin-bottom: 0.3rem;
+      font-size: 1.1rem;
+    }
+
+    .timeline-text {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .clock-container {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: radial-gradient(circle at center, #ffdee9, #b5fffc);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      position: relative;
+      animation: pulse 2s infinite ease-in-out;
+    }
+
+    .clock-ring {
+      text-align: center;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+      }
+      50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px rgba(255, 105, 180, 0.7);
+      }
+    }
+  </style>
+
+  <!-- ⏱️ COUNTDOWN SCRIPT -->
+  <script>
+    const countdownDate = new Date("June 21, 2027 00:00:00").getTime();
+
+    const timer = setInterval(function () {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+
+      if (distance < 0) {
+        document.getElementById("countdown").innerHTML = "The wait is over 💍";
+        clearInterval(timer);
+      } else {
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("countdown").innerHTML =
+          days + "d " + hours + "h " + minutes + "m " + sececonds +  ";
+      }
+    }, 1000);
+  </script> 
+</section>
+  <!-- Finale Section -->
+  <section id="finale" class="text-center p-10 relative overflow-hidden">
+    <h2 class="text-4xl font-bold text-pink-600 mb-4">The Big Question 💖</h2>
+    <p class="text-2xl text-gray-700 mb-6">Will you be mine forever?</p>
+    <button id="yesButton" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-full text-xl transition-all">
+      Yes!
+    </button>
+    <div id="emojiContainer" class="hidden"></div>
+  </section>
+
+  <style>
+    @keyframes floatDown {
+      0% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(500px) rotate(360deg);
+        opacity: 1;
+      }
+    }
+
+    .falling-emoji {
+      position: absolute;
+      font-size: 2rem;
+      animation: floatDown 3s ease-in forwards;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .bg-white {
+      background-color: white;
+    }
+
+    .text-pink-600 {
+      color: #db2777;
+    }
+
+    .text-gray-700 {
+      color: #374151;
+    }
+
+    .mt-10 {
+      margin-top: 2.5rem;
+    }
+
+    .mb-4 {
+      margin-bottom: 1rem;
+    }
+
+    .mb-6 {
+      margin-bottom: 1.5rem;
+    }
+
+    .py-20 {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    .rounded-full {
+      border-radius: 9999px;
+    }
+
+    .transition-all {
+      transition: all 0.3s ease-in-out;
+    }
+
+    .text-xl {
+      font-size: 1.25rem;
+    }
+
+    .text-2xl {
+      font-size: 1.5rem;
+    }
+
+    .text-4xl {
+      font-size: 2.25rem;
+    }
+
+    .font-bold {
+      font-weight: bold;
+    }
+
+    .hover\:bg-red-600:hover {
+      background-color: #dc2626;
+    }
+
+    .bg-red-500 {
+      background-color: #ef4444;
+    }
+
+    .text-white {
+      color: white;
+    }
+
+    .px-6 {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    .py-3 {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+
+    .relative {
+      position: relative;
+    }
+
+    .w-full {
+      width: 100%;
+    }
+
+    .h-64 {
+      height: 16rem;
+    }
+
+    .overflow-hidden {
+      overflow: hidden;
+    }
+    /* === Emoji Animation Styles === */
+#emojiContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.emoji {
+  position: absolute;
+  top: 0;
+  font-size: 2rem;
+  animation: fall 4s linear forwards;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+    }
+    .footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #fff0f5; /* soft pinkish */
+  color: #6b046b; /* warm purple */
+  font-family: 'Segoe UI', cursive;
+  font-size: 1.1rem;
+  animation: fadeIn 2s ease-in-out;
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+    }
+  </style>
+
+  <script>
+    document.getElementById("yesButton").addEventListener("click", function () {
+      const container = document.getElementById("emojiContainer");
+      container.classList.remove("hidden");
+
+      const emojis = ["🎈", "🎊", "🥟", "💖"];
+      const total = 30;
+
+      for (let i = 0; i < total; i++) {
+        const emoji = document.createElement("span");
+        emoji.classList.add("falling-emoji");
+        emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+
+        emoji.style.left = Math.random() * 100 + "vw";
+        emoji.style.animationDelay = (Math.random() * 1.5) + "s";
+
+        container.appendChild(emoji);
+      }
+    });
+  </script>
+   <footer class="footer">
+  <p>✨ This page may end, but our story never will... ❤️</p>
+  <p>Made with endless love by your Panda 🐼, forever yours.</p>
+   </footer>
+  </body>
+</html>
